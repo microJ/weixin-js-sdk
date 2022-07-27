@@ -1,0 +1,32 @@
+{
+  "name": "@microj/weixin-js-sdk",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf disk && rollup -c"
+  },
+  "keywords": [
+    "weixin",
+    "wechat",
+    "js-sdk",
+    "sdk",
+    "weixin-js-sdk",
+    "wechat-js-sdk",
+    "jweixin"
+  ],
+  "files": [
+    "dist",
+    "types"
+  ],
+  "repository": "https://github.com/microJ/weixin-js-sdk",
+  "author": "microJ",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.77.1"
+  }
+}
